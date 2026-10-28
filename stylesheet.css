@@ -1,0 +1,124 @@
+/* GENERAL STYLES */
+*{
+    font-family:monospace
+}
+body{
+    color:#fffaf0;
+    background-color:darkseagreen;
+}
+h1, h2, h3{
+    text-shadow:-1px -1px 0 #492c1d, 1px -1px 0 #492c1d, -1px 1px 0 #492c1d, 1px 1px 0 #492c1d;
+}
+p {
+    color:floralwhite;
+    font-size:large;
+}
+ul, ol, li{
+    font-size:large
+}
+a:link {
+    color:#5b5750
+}
+a.visited{
+    color:#492c1d
+}
+a.hover{
+    color:#492c1d
+}
+table, th, td{
+    border:double;
+    border-collapse: collapse;
+    text-align:center;
+}
+th {
+    background-color:#5b5750
+}
+td {
+    background-color:floralwhite;
+    color:#492c1d
+}
+/* SITEWIDE */
+nav {
+    border:dotted;
+    border-color:#5b5750;
+    text-align:center;
+    background-color:floralwhite;
+    margin-bottom: 10px;
+}
+.header{
+    border:dotted;
+    text-align:center;
+    background-color:#5b5750;
+    margin-bottom:10px;
+}
+.footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    text-align:center;
+    background-color:#5b5750;
+}
+/* UTILITIES */
+.extra-bottom-padding{
+    padding-bottom:125px;
+}
+.projects-extra-bottom-padding{
+    padding-bottom:325px;
+}
+hr{
+    clear:both;
+    border:none;
+}
+/* LAYOUT */
+#message-in-a-bottle img{
+    transform: rotate(10deg);
+    width:100px
+}
+#cathedral-door{
+    display: flex;
+    justify-content: center;
+}
+#cathedral-door img{
+    width:300px;
+}
+#welcome-text{
+    text-align:center;
+}
+#thursday-photo{
+    float:left;
+    overflow:hidden;
+    display:flex;
+    width: 200px;
+    padding-right:15px
+}
+#thursday-photo img{
+    max-width:inherit;
+    max-height:inherit;
+    height:inherit;
+    width:inherit;
+    object-fit:cover;
+    border: 5px ridge;
+}
+#project-1{
+    display:block;
+    overflow:hidden;
+}
+#project-1-photo{
+    border-radius:5px;
+    width:200px;
+    object-fit:cover;
+    border: 5px ridge;
+    float:left;
+}
+#project-2{
+    overflow:hidden;
+    display:block;
+}
+#project-2-photo{
+    border-radius:5px;
+    width:300px;
+    object-fit:cover;
+    border: 5px ridge;
+    float:left;
+}
