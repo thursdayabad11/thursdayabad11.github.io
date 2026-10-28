@@ -66,6 +66,9 @@ nav {
 .projects-extra-bottom-padding{
     padding-bottom:325px;
 }
+.home-extra-bottom-padding{
+    padding-bottom:180px;
+}
 hr{
     clear:both;
     border:none;
